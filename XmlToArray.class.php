@@ -1,5 +1,9 @@
 <?php
-
+/*
+**本类需要继承DOMDocument类
+**@toArray XML转换成array
+**@get_curl_xml CURL获取接口数据 HTTPS协议的
+*/
 class Getxml extends DOMDocument
 {
     public function toArray(DOMNode $oDomNode = null)
